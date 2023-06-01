@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+section.container {
+    position: relative;
+    border-radius: 8px;
+    max-width: 60.625rem;
+    height: 17.5rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+div.banner{
+    width: 7760px;
+    height: 17.5rem;
+    transform: translate(-970px);
+}
+
+div.banner div{
+    cursor: pointer;
+    width: 970px;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;   
+}
+
+div.arrow {
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 33px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #0000005c;
+    color: white;
+}
+
+div.prev {
+    left: 30px;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+div.next {
+    right: 30px;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+div.dots {
+    position: absolute;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+div.dot {
+    cursor: pointer;
+    width: 7px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid rgb(1, 149, 127);
+}
